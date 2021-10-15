@@ -6,8 +6,9 @@
 | Data | Versão | Descrição | Autor 
 | :--- | :---:| :------- | :----- |
 | 19/04/2021 | 1.0 | Sistema desenvolvido e apresentado no WTADS de 2020.2 e em seguida, apresentado a banca | Ricardo Carvalho, André Luiz e Vicente Limeira |
-| 20/06/2021 | 1.1 | Primeira análise | Vicente Limeira 
-| 23/06/2021 | 1.2 | Revisão | Vicente Limeira 
+| 20/06/2021 | 1.1 | Primeira análise | Vicente Limeira | 
+| 23/06/2021 | 1.2 | Revisão | Vicente Limeira |
+| 15/10/2021 | 1.2.1 | Revisão | Ricardo Carvalho e André Luiz |
 
 
 ## 1. Resumo
@@ -23,33 +24,33 @@ Este documento tem como objetivo identificar e monitorar qualquer coisa conhecid
 | Adoção de novos métodos | Médio |
 | Volatilidade da equipe | Alto |
 | Equipe desfalcada | Alto |
-| Incompatibilidade de horários | Alto |
 
 
 ### 2.1 Gerente de Projeto
 
-A ausência de um gerente do projeto pode definir direções contrárias, que provocam descompasso entre as visões pessoais dos desenvolvedores e o objetivo do projeto.
+A ausência de uma gestão acertada do gerente do projeto pode causar transtornos ao desenvolvimento da solução, provocando uma falta de alinhamento da visão da solução entre a equipe, gerando atrasos e implementações falhas ou incompatíveis com a solução.  
 
 #### 2.1.1 Classificação ou Gravidade do Risco
 
-Alto impacto no projeto.
+**Alto impacto no projeto.**
 
 #### 2.1.2 Estratégia de Diminuição
 
-Realização de reuniões fixas semanais, gravadas e com registro de deliberações, e planejamento de atividades individuais.
-Verificação constante do engajamento do gerente do projeto de modo a detectar antecipadamente um eventual risco de saída ou morosidade na gestão.
+Realização de reuniões fixas semanais, gravadas e com registro de deliberações(ata de reunião), e planejamento de atividades individuais.
+A equipe deve definir alguém responsável pela gestão da solução e da equipe, verificando constantemente o engajamento do gerente do projeto de modo a detectar antecipadamente um eventual risco de saída na gestão e a equiepe deve relatar falhas na gestão do gerente de projeto caso ocorra.
 
 #### 2.1.3 Plano de Contingência
 
-O grupo de desenvolvedores deve eleger entre eles, de forma concensual, um novo gerente para o projeto.
+* Caso não tenha um gerente de projeto, ou o responsável pela gestão se ausente, a equipe do projeto deve eleger entre eles, de forma concensual, um novo gerente responsável para o projeto.
+* A equiepe e o gerente de projeto devem gerar um relatório de cada interação para fins de verificação do próprio desenpenho. 
 
 ### 2.2 Prazos e tempos de execução
 
-Prazos e tempos de execução de tarefas mal estimados provocam atrasos nas iterações e consequentemente na entrega do produto final, bem como podem causar aumento de custos na construção do software.
+Prazos e tempos de execução de tarefas mal estimados provocam atrasos nas iterações e consequentemente na entrega do produto final, bem como podem causar aumento de custos na construção do software e provocar descontentamento para os stakeholders.
 
 #### 2.2.1 Classificação ou Gravidade do Risco
 
-Baixo impacto no projeto.
+**Baixo impacto no projeto.**
 
 #### 2.2.2 Indicadores
 
@@ -61,7 +62,8 @@ Os prazos para entregas parciais e final deverão estar continuamente sendo revi
 
 #### 2.2.4 Plano de Contingência
 
-Reavaliação seguida de negociação junto ao cliente de uma eventual diminuição no escopo do projeto.
+* Reavaliação seguida de negociação junto ao cliente de uma eventual diminuição no escopo do projeto.
+* Consultar os stakeholders sobre os conflito da solução e com os feedback guiar as próximas iterações.
 
 ### 2.3 Adoção de novos métodos
 
@@ -69,7 +71,7 @@ Tentativas de adoção de novos métodos de desenvolvimento ou tecnologia durant
 
 #### 2.3.1 Classificação ou Gravidade do Risco
 
-Médio impacto no projeto.
+**Médio impacto no projeto.**
 
 #### 2.3.2 Indicadores
 
@@ -78,9 +80,9 @@ Lista de produtos utilizados no projeto.
 | Produto | Versão | Licença |
 | :---- | :---: | :-----: |
 | Python | 3.7.3 | Open Source |
+| JavaScript | ECMAScript 2018 | Netscape |
 | Framework Django | 3.1.6 | BSD |
 | Framework React | 17.0.2 | MIT |
-| ExpressJS | 4.17.1 | MIT |
 | Astah UML | 8.3.0 | Academic |
 | PostgreSQL | 13.2 | BSD |
 
@@ -91,7 +93,7 @@ Utilizar o menor número de produtos agregados, debatendo internamente sobre sua
 
 #### 2.3.4 Plano de Contingência
 
-Substituir tecnologia ou produto empregados no projeto de modo a garantir a continuidade dos trabalhos.
+* Substituir tecnologia ou produto empregados no projeto de modo a garantir a continuidade dos trabalhos.
 
 ### 2.4 Volatilidade da equipe
 
@@ -99,20 +101,11 @@ A troca de membros da equipe ou a perda de profissionais importantes pode ocasio
 
 #### 2.4.1 Classificação ou Gravidade do Risco
 
-Alto impacto no projeto.
+**Alto impacto no projeto.**
 
 #### 2.4.2 Indicadores
 
-Lista de profissionais e suas competências necessárias ao projeto.
-
-| Profissional | Competências |
-| :---- | :--------- |
-| André | OpenUP(aprendendo), MySQL, Python, Django, PHP, Web Design(HTML, CSS), JavaScript(aprendendo), React.js(aprendendo), Node.js(aprendendo) | 
-| Vicente Limeira | OpenUP, PostgreSQL, Python, Django, UML, C# .NET for MVC |
-| Ricardo Rafael | OpenUP(aprendendo), Java, MySQL, Python, Django, Web Design(HTML, CSS), JavaScript(aprendendo), React.js(aprendendo), Node.js(aprendendo) |
-| Lucas Felipe |  |
-| Nicholas Balby|  |
-
+Falta de experiência na resolução de uma demanda pede por uma equipe altamente volátil para resolver, ou pesquisar sobre, a demanda exposta.
 
 #### 2.4.3 Estratégia de Diminuição
 
@@ -121,4 +114,12 @@ Empreender treinamentos internos onde cada membro do grupo possa disseminar seus
 
 #### 2.4.4 Plano de Contingência
 
-O gerente do projeto deve manter profissionais contatados com as mesmas competências da equipe para eventual substituição de algum elemento.
+* O gerente do projeto deve manter profissionais contatados com as mesmas competências da equipe para eventual substituição de algum elemento.
+
+Lista de profissionais e suas competências necessárias ao projeto.
+
+| Profissional | Competências |
+| :---- | :--------- |
+| André | OpenUP(aprendendo), MySQL, Python, Django, PHP, Web Design(HTML, CSS), JavaScript(aprendendo), React.js(aprendendo), Node.js(aprendendo) | 
+| Vicente Limeira | OpenUP, PostgreSQL, Python, Django, UML, C# .NET for MVC |
+| Ricardo Rafael | OpenUP(aprendendo), Java, MySQL, Python, Django, Web Design(HTML, CSS), JavaScript(aprendendo), React.js(aprendendo), Node.js(aprendendo) |
