@@ -50,7 +50,10 @@
 
 | Ator | Descrição |
 | -------- | -------- |
-| | |  
+| Leitor | |
+| Escritores | |
+| Críticos Literários | |
+| Editoras/Revistas | |
 
 ## 3. Clientes
 
