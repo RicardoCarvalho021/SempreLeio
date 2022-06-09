@@ -2,7 +2,7 @@
 
 
 
-O sempreLeio é uma plataforma web que possibilita o encontro para leitores e profissionais do ramo editorial.
+O sempreLeio é uma plataforma web que possibilita o encontro para leitores e profissionais do ramo de livros.
 
 ## Início
 
