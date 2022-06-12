@@ -47,7 +47,8 @@ Veja o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para maiores detalhes.
 
 ## Equipe de desenvolvimento
 
-* **NOME COMPLETO** - *email@dominio.com*
+* **André Luiz do Nascimento** - *email@dominio.com*
+* **Ricardo Carvalho** - *email@dominio.com*
 
 ## Licença
 
